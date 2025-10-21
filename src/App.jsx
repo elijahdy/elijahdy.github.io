@@ -1,4 +1,5 @@
 import './App.css'
+import homeIcon from './assets/home_icon.png'
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -8,8 +9,17 @@ function App() {
     }
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="app">
+      {/* Home Button */}
+      <button className="home-button" onClick={scrollToTop} aria-label="Go to top">
+        <img src={homeIcon} alt="Home" />
+      </button>
+
       {/* Navigation Bar */}
       <nav className="navbar">
         <button onClick={() => scrollToSection('about-us')}>About us</button>
