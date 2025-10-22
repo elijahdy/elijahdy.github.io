@@ -38,7 +38,7 @@ function App() {
       <section id="about-us" className="content-section">
         <h2 className="section-title">About us</h2>
         <div className="text-box">
-          <p>The world is currently in the midst of the biggest technological revolution since the invention of the internet, AI is drastically reshaping every aspect of society and our daily lives. Employment, education, healthcare, personal relationships, the news, energy and water consumption, and war have already been deeply affected by the rise of AI over the last 5 years. This rapidly moving, uncertain landscape can be extremely difficult and scary to navigate for ordinary people. Here at Heart of Humanity, our goal is to educate the general public on the risks posed by AI and how they can protect themselves, their communities and their businesses. We also hope to empower people to take action in influencing AI legislation and policy, so that this incredibly powerful tool can benefit all of humanity instead of spelling our downfall.</p>
+          <p>The world is currently in the midst of the biggest technological revolution since the invention of the internet, AI is drastically reshaping every aspect of society and our daily lives. Employment, education, healthcare, personal relationships, the news, energy consumption, and war have already been deeply affected by the rise of AI. This rapidly moving, uncertain landscape can be difficult and scary for ordinary people to navigate. Here at Heart of Humanity, our goal is to educate the general public on the risks posed by AI and how they can protect themselves, their communities and their businesses. We also hope to empower people to take action in influencing AI legislation and policy, so that this incredibly powerful tool can benefit all of humanity instead of spelling our downfall.</p>
         </div>
       </section>
 
@@ -55,7 +55,7 @@ function App() {
         <h2 className="section-title">Contact us</h2>
         <div className="contact-info">
           <p>email: elijahdy0719@gmail.com</p>
-          <p>phone: +447452981347</p>
+          <p>phone: +44 7452981347</p>
         </div>
       </section>
     </div>
