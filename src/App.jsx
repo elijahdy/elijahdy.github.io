@@ -1,5 +1,4 @@
 import './App.css'
-import homeIcon from './assets/home_icon.png'
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -15,16 +14,16 @@ function App() {
 
   return (
     <div className="app">
-      {/* Home Button */}
-      <button className="home-button" onClick={scrollToTop} aria-label="Go to top">
-        <img src={homeIcon} alt="Home" />
-      </button>
-
       {/* Navigation Bar */}
       <nav className="navbar">
-        <button onClick={() => scrollToSection('about-us')}>About us</button>
-        <button onClick={() => scrollToSection('our-services')}>Our Services</button>
-        <button onClick={() => scrollToSection('contact-us')}>Contact us</button>
+        <button className="home-button" onClick={scrollToTop}>
+          Home
+        </button>
+        <div className="nav-links">
+          <button onClick={() => scrollToSection('about-us')}>About us</button>
+          <button onClick={() => scrollToSection('our-services')}>Our Services</button>
+          <button onClick={() => scrollToSection('contact-us')}>Contact us</button>
+        </div>
       </nav>
 
       {/* Hero Section */}
@@ -54,7 +53,7 @@ function App() {
       <section id="contact-us" className="content-section">
         <h2 className="section-title">Contact us</h2>
         <div className="contact-info">
-          <p>email: elijahdy0719@gmail.com</p>
+          <p>email: info@heartofhumanity-ai-safety.co.uk</p>
           <p>phone: +44 7452981347</p>
         </div>
       </section>
