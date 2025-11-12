@@ -21,7 +21,8 @@ function App() {
         </button>
         <div className="nav-links">
           <button onClick={() => scrollToSection('about-us')}>About us</button>
-          <button onClick={() => scrollToSection('our-services')}>Our Services</button>
+          <button onClick={() => scrollToSection('workshops')}>Workshops</button>
+          <button onClick={() => scrollToSection('start-learning')}>Start Learning</button>
           <button onClick={() => scrollToSection('contact-us')}>Contact us</button>
         </div>
       </nav>
@@ -41,9 +42,17 @@ function App() {
         </div>
       </section>
 
-      {/* Our Services Section */}
-      <section id="our-services" className="content-section">
-        <h2 className="section-title">Our Services</h2>
+      {/* Workshops Section */}
+      <section id="workshops" className="content-section">
+        <h2 className="section-title">Workshops</h2>
+        <div className="text-box">
+          <p className="coming-soon">COMING SOON</p>
+        </div>
+      </section>
+
+      {/* Start Learning Section */}
+      <section id="start-learning" className="content-section">
+        <h2 className="section-title">Start Learning</h2>
         <div className="text-box">
           <p className="coming-soon">COMING SOON</p>
         </div>
